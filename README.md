@@ -26,3 +26,17 @@ dashboard/ – workflow and monitoring components
 ## How to Run
 
 Clone the repository:
+git clone https://github.com/someone444/Runtime_Bias-Detection_and_mitigation.git
+
+
+Install dependencies:
+pip install -r requirements.txt
+
+
+Run the pipeline:
+python src/stream_main.py
+
+## Motivation
+
+Bias in machine learning systems can produce unfair outcomes across demographic groups.  
+This project demonstrates how fairness metrics and mitigation techniques can be integrated into an ML pipeline.
